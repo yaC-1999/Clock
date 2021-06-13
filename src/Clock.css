@@ -1,0 +1,31 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border-color: black;
+    border-radius: 10px; */
+}
+.in{
+    padding: 30px;
+    border-radius: 25px;
+}
+.body.day{
+    background-color: rgb(255, 255, 167);
+}
+.in.day{
+    background-color: rgb(255, 255, 93);
+}
+.day  {
+    color: rgb(255, 166, 0);
+}
+.body.night{
+    background-color: rgb(162, 221, 235);
+}
+.in.night{
+    background-color: rgb(51, 167, 245);
+}
+.night  {
+    color: rgb(31, 57, 202);
+    
+}
